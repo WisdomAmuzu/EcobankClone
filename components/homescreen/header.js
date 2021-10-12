@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Icon } from 'react-native-elements'
+import { Icon, Image } from 'react-native-elements'
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -10,7 +10,8 @@ const header = () => {
       <Icon reverse name='account_cirlce' type='material' color='#ffff00' />
       </View>
       <View style={styles.itemRight}>
-
+        <Image source={{}} style={{width: 20, height: 20}} />
+        <Icon reverse name='arrow_drop_down' type='material' color='#1e90ff' />
       </View>
     </View>
   );
@@ -30,9 +31,11 @@ const styles = StyleSheet.create({
         alignContent: "center",
       },
       itemLeft: {
-
+        justifyContent: 'flex-start',
       },
-      itemRight: {},
+      itemRight: {
+        justifyContent: 'flex-end',
+      },
 });
 
 export default header;
