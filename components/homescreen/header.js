@@ -6,8 +6,8 @@ import { StyleSheet, Text, View } from 'react-native';
 const header = () => {
   return (
     <View style={styles.headerContainer}>
-        <View style={styles.itemLeft}>
-      <Icon reverse name='account_cirlce' type='material' color='#ffff00' />
+      <View style={styles.itemLeft}>
+        <Icon reverse name='account_cirlce' type='material' color='#ffff00' />
       </View>
       <View style={styles.itemRight}>
         <Image source={{}} style={{width: 20, height: 20}} />
