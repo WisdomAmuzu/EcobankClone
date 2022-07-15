@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const mainmenu = () => {
+const MainMenu = () => {
   return (
     <View style={styles.container}>
       <Text>Main Menu</Text>
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default mainmenu;
+export default MainMenu;
