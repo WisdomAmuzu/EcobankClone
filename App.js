@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { View, StyleSheet, Text } from 'react-native';
-import { home } from './home';
+import { Home } from './Home';
 
 export default function App() {
   return (
