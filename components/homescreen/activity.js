@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const activity = () => {
+const Activity = () => {
   return (
     <View style={styles.container}>
       <Text>Your Activity</Text>
@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default activity;
+export default Activity;
