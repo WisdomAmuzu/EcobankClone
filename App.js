@@ -6,7 +6,7 @@ import { Home } from './Home';
 export default function App() {
   return (
     <View style={styles.container}>
-      <home />
+      <Home />
       <Text>Hello</Text>
       <StatusBar style="auto" />
     </View>
